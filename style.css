@@ -1,0 +1,148 @@
+/*
+Theme Name: Annalisa Maria
+Theme URI: http://www.annalisamaria.com
+Description: Theme for annalisamaria.com
+Version: 0.1
+Author: Adam Marshall
+Author URI: http://appsynergy.net
+Tags: dark, black, minimal, store
+*/
+
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** municipal styles
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+
+.clearleft {
+	clear: left;
+}
+
+.clear { 
+	 clear: both;
+}	 
+
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** page level styles 
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+
+body {
+	background-color: black;
+	color:white;
+	font: 14px "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+	text-align: center;
+}
+
+.post {
+	background-color: #222;
+	margin: 25px 150px 50px;
+	padding: 20px 40px 20px;	
+}
+
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** navbars
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+
+ #nav ul{
+	display: inline;
+	list-style-type: none;
+	list-style-image:none;
+	margin:0; 
+}
+
+#nav li {
+	display: inline;
+	padding: 0px 5px; 
+}
+	 
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** header styles
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+
+#title {
+	padding: 2px;
+}
+
+#title h1 a {
+	text-decoration: none;
+}
+
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** footer styles
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+
+#footer {
+	padding-left: 300px;
+}
+
+.footerlinks {
+	display: inline;
+	float: left;
+	margin-right: 50px;
+}
+
+
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** links
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+ 
+a {
+	color: #fee;
+}
+
+a:hover {
+	color: #fcc;
+}
+
+a:visited {
+	color: #fdd;
+}
+
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** portfolio
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+
+.product_label {
+	color: #fdd;
+	font-weight: bold;
+}
+
+.product_button a {
+	background-color: #f78;
+	padding: 2px;
+	font-weight: bold;
+	color: black;
+}
+
+.portfolio_item {
+	margin: 10px;
+	display: inline;
+	border: 5px solid white;
+	height: auto;
+	width: auto;
+	float: left;
+}
+
+.portfolio_thumb {
+	height: 100px;
+	overflow: scroll;
+}
+
+
+/***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***
+ *** info pages
+ ***=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=***/
+
+.info_image  img {
+	height: 200px;
+	width: 200px;
+}	
+
+.info_image {
+	float: right;
+	display: inline;
+}
+
+.info_main {
+	float: left;
+	display: inline;
+	width: 60%;
+}
